@@ -1,0 +1,18 @@
+Database : Univ
+
+CREATE TABLE IF NOT EXISTS dosen(
+	id_dosen int,
+	nama varchar(255),
+	alamat varchar(255),
+	no_telepon varchar(255),
+	email varchar(255),
+	PRIMARY KEY(id_dosen)
+)
+
+
+INSERT INTO dosen (id_dosen, nama, alamat, no_telepon, email)
+VALUES
+(1, 'John Doe', 'Jl. Contoh Alamat No. 123', '081234567890', 'john.doe@example.com'),
+(2, 'Jane Smith', 'Jl. Contoh Alamat No. 456', '082345678901', 'jane.smith@example.com'),
+(3, 'Michael Johnson', 'Jl. Contoh Alamat No. 789', '083456789012', 'michael.johnson@example.com'),
+(4, 'Emily Davis', 'Jl. Contoh Alamat No. 987', '084567890123', 'emily.davis@example.com');
